@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eaeaea;
+}
+
+.card {
+    margin: 1em;
+    width: 100%;
+    max-width: 45vh;
+    background-color: #212121;
+    color: white;
+    padding: 2rem;
+    border-radius: 1em;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    width: 320px;
+    height: 1vh;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: #212121;
+    color: white;
+    border: solid 2px;
+    outline: none;
+    font-size: 110%;
+}
+
+button {
+    margin: 1em;
+    border-radius: 50%;
+    background-color: #212121;
+    color: white;
+    border: solid 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eaeaea;
+    color: #212121;
+    transition: 0.2s ease-in-out;
+}
+
+.flex {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+h1.temperature {
+    font-size: 320%;
+}
